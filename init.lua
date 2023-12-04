@@ -8,6 +8,8 @@ vim.g.maplocalleader = ' '
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwplugin = 1
 
+-- enable relative numbers 
+vim.wo.relativenumber = true
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
@@ -186,6 +188,10 @@ require('lazy').setup({
     dependencies = {
       "nvim-tree/nvim-web-devicons",
     }
+  },
+  {
+    "stevearc/conform.nvim",
+    opts = {},
   },
 }, {})
 

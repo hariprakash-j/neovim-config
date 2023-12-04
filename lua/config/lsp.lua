@@ -72,9 +72,12 @@ local servers = {
   gopls = {},
   pyright = {},
   -- rust_analyzer = {},
-  -- tsserver = {},
+  tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
   spectral  = { filetypes = { 'yaml', 'json', 'yml'} },
+  -- svelte = {},
+  elixirls = {},
+  marksman = {},
   lua_ls = {
     Lua = {
       workspace = { checkThirdParty = false },
