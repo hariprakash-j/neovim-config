@@ -16,6 +16,7 @@ require("conform").setup({
 		javascript = { "prettier" },
 		go = { "golines", "goimports", "gofumpt" },
 		markdown = { "prettier" },
+		elixir = { "mix" },
 	},
 	format_on_save = {
 		-- These options will be passed to conform.format()
